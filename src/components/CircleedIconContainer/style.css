@@ -1,0 +1,38 @@
+@import "./../../generalStyles/variables.css";
+.icon-wrapper {
+  background-color: var(--white);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.icon-wrapper.green {
+  background-color: var(--green);
+}
+.icon-description {
+  font-size: 12px;
+  text-align: center;
+}
+.radial {
+  cursor: pointer;
+
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 500px) {
+  .icon-description {
+    font-size: 11px;
+  }
+  .reviewer-name {
+    font-size: 12px;
+  }
+  .icon-wrapper {
+    width: 45px;
+    height: 45px;
+  }
+  .icon-wrapper.review {
+    width: 35px;
+    height: 35px;
+  }
+}

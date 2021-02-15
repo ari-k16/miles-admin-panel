@@ -1,0 +1,28 @@
+@import "./../../generalStyles/variables.css";
+.modal.fade .modal-dialog {
+  transform: none !important;
+}
+.modal .modal-header {
+  border-bottom: none !important;
+  padding: 0.5rem;
+}
+.modal-body {
+  padding: 0.5rem;
+}
+.modal .modal-header button {
+  margin-left: auto;
+  padding: 0.5rem;
+  opacity: 1;
+}
+.modal-header .close {
+  margin: 0;
+}
+.social-media-content h3,
+.social-media-content p {
+  text-align: center;
+}
+
+.social-media-content h3 {
+  font-family: var(--boldFont);
+  font-size: 1.8rem;
+}

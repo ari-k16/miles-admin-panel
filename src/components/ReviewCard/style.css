@@ -1,0 +1,20 @@
+@import "./../../generalStyles/variables";
+.reviews {
+  text-align: left;
+}
+.reviews.section-separator:last-of-type {
+  border-bottom: none !important;
+}
+.reviewer-secondary-text {
+  font-size: 14px;
+  color: var(--textGray) !important;
+  letter-spacing: 0.7px;
+}
+@media screen and (max-width: 500px) {
+  .reviewer-name {
+    font-size: 12px;
+  }
+  .reviewer-secondary-text.date {
+    font-size: 0.8rem;
+  }
+}

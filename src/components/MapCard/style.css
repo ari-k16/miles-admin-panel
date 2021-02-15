@@ -1,0 +1,27 @@
+@import "./../../generalStyles/variables.css";
+
+.map-container {
+  width: 100%;
+}
+.card {
+  background: #ffffff;
+  border-radius: 7px;
+  border: none;
+  overflow: hidden;
+}
+.map-container .icon-container {
+  width: 4%;
+}
+.map-container p {
+  text-align: left;
+}
+
+@media screen and (max-width: 500px) {
+  .map-container p {
+    font-size: 12px;
+    text-align: left;
+  }
+  .icon-container {
+    width: 6%;
+  }
+}

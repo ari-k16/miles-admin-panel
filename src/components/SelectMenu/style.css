@@ -1,0 +1,26 @@
+.accordion h3 {
+  font-family: var(--boldFont);
+}
+.accordion .card-body {
+  text-align: left;
+}
+.select-menu h3 {
+  font-size: 0.9rem;
+}
+.select-menu .card-header {
+  cursor: pointer;
+  background-color: var(--baleWhite) !important;
+  padding: 2% !important;
+}
+.arrow-icon-container {
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  margin-left: auto;
+}
+.arrow-icon {
+  transition: all 0.2s ease-in-out;
+  font-size: 0.7rem;
+}
+.rotate {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,93 @@
+@import "./../../generalStyles/variables.css";
+
+.alert-light {
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 7px;
+}
+.time-date-container .badge:first-of-type {
+  margin-right: 2%;
+}
+
+.badge.gray {
+  background-color: var(--lightGray);
+  border-radius: 5px;
+  padding: 2% 3%;
+  font-weight: lighter;
+}
+.time-date-container .badge {
+  font-size: 0.8rem;
+  border-radius: 10px;
+  padding: 2% 4%;
+  height: 100%;
+  width: 50%;
+}
+.badge .icon-container {
+  width: 10%;
+}
+.badge .info-container {
+  width: 75%;
+  font-size: 0.9em;
+}
+.badge.orange {
+  border: 1px solid var(--orange);
+  background-color: transparent;
+  color: var(--orange);
+  font-size: 0.8rem;
+  font-family: var(--boldFont);
+  text-align: center;
+}
+.badge.white {
+  display: inline-block !important;
+  padding: 0.7% 2%;
+  border-radius: 15px;
+  border: 1px solid #d8d8d8;
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 0.8rem;
+  font-family: var(--boldFont);
+  text-align: center;
+}
+
+@media screen and (max-width: 786px) {
+  .badge .icon-container {
+    width: 10%;
+  }
+  .badge.orange {
+    text-align: center;
+    margin-bottom: 4% !important;
+    margin-top: 4% !important;
+    padding: 3% 5%;
+    border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .date-and-time-info {
+    margin-bottom: 5% !important;
+  }
+  .badge.orange {
+    /* width: 70%; */
+    font-family: var(--boldFont);
+    font-size: 0.8em;
+  }
+  .time-date-container .info-container {
+    font-size: 0.8em;
+  }
+  .card-container {
+    width: 100%;
+  }
+  .icon-container {
+    width: 5%;
+  }
+  .time-date-container .badge {
+    border-radius: 6px;
+    padding: 0% 2%;
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  .badge.badge.white {
+    padding: 2% 3%;
+    font-size: 0.7rem;
+  }
+}

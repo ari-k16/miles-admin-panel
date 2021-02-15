@@ -1,0 +1,31 @@
+@import "./../../generalStyles/variables.css";
+.card-title {
+  letter-spacing: 0.52px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+.time-date-container {
+  flex-wrap: nowrap;
+}
+.feature-container p {
+  text-align: left;
+}
+.feature-type {
+  font-size: 0.7rem;
+  font-family: var(--boldFont);
+}
+.feature-type.green {
+  color: var(--green);
+}
+.feature-description {
+  font-size: 0.7rem;
+  color: var(--textGray);
+  font-weight: lighter;
+}
+@media screen and (max-width: 500px) {
+  .card-title {
+    width: 100%;
+  }
+}
