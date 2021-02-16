@@ -1,11 +1,10 @@
 import "./App.css";
 import { Router } from "react-router-dom";
 import { Routes } from "././router";
-import history from "./history";
+import AdminPanel from "./../Containers/AdminPanel";
 import NavBar from "../components/Navbar";
 import { useEffect, useState } from "react";
 import Footer from "../components/Footer";
-import AdminPanel from "../Containers/AdminPanel";
 
 function App() {
   const [isMobileScreen, setIsMobileScreen] = useState(false);
